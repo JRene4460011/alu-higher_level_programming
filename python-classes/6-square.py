@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """6-square.py"""
 
+
 class Square:
     """Defines a square with size and position."""
 
