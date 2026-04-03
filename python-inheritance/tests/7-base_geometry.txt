@@ -1,0 +1,14 @@
+BaseGeometry class exists
+area method exists
+integer_validator method exists
+
+bg = BaseGeometry()
+
+bg.area() raises Exception with message "area() is not implemented"
+
+bg.integer_validator("my_int", 12) passes
+bg.integer_validator("width", 89) passes
+
+bg.integer_validator("name", "John") raises TypeError with message "name must be an integer"
+bg.integer_validator("age", 0) raises ValueError with message "age must be greater than 0"
+bg.integer_validator("distance", -4) raises ValueError with message "distance must be greater than 0"
