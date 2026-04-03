@@ -9,6 +9,7 @@ Fetches http://0.0.0.0:5050/status using urllib and displays body response info:
 
 import urllib.request
 
+
 if __name__ == "__main__":
     url = "http://0.0.0.0:5050/status"
 
