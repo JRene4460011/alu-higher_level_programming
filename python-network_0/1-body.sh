@@ -1,3 +1,3 @@
 #!/bin/bash
-# Display only body of 200 status code response
-curl -s -f "$1"
+# Send a GET request and display body, following redirects
+curl -s -L "$1"
