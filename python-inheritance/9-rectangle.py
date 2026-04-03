@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """9-rectangle module"""
 
+
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
 
 class Rectangle(BaseGeometry):
     """Rectangle with area and __str__"""
