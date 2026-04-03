@@ -1,3 +1,3 @@
 #!/bin/bash
-# GET request with custom header
-curl -s -H "X-HolbertonSchool-User-Id: 98" "$1"
+# Send GET request with header and follow redirects
+curl -s -L -H "X-HolbertonSchool-User-Id: 98" "$1"
