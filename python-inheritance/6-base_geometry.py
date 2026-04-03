@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """6-base_geometry module"""
 
+
 class BaseGeometry:
     """BaseGeometry with area method"""
 
